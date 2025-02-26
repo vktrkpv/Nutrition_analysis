@@ -1,0 +1,41 @@
+.nutrition-container {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: left;
+}
+
+.nutrition-container h2 {
+    color: #ff758c;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.nutrition-container p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nutrition-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nutrition-list li {
+    font-size: 14px;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nutrition-list li:last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 600px) {
+    .nutrition-container {
+        width: 90%;
+    }
+}
